@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="indexpro.css">
+<link rel="stylesheet" type="text/css" href="css/voterpoll.css">
+</head>
+<body>
+<nav a class="navbar"><b>Online Voting System</b></a>
+
+      <a href="home.html">Home</a>
+
+      <a href="votelogin.jsp">Login</a>
+
+      <a href="contact.jsp">Contact Us</a>
+      
+      <a href="viewVoter">Voter List</a>   
+    </nav>
+<form action="saveParties">
+<div class="text-center">
+<h1>Vote Here</h1>
+Enter Voterid <input type="text" name="voterid"><br><br>
+Select the Party:
+<select type="radio" name="party">
+	<option class="b">BJP</option>
+	<option class="n">NCP</option>
+	<option class="r">RJD</option>
+	<option class="a">AAP</option>
+</select>
+<br><br>
+<input class="btn" type="submit" value="Submit Vote">
+</div>
+
+
+</form>
+
+</body>
+</html>
